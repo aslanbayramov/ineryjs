@@ -22,3 +22,5 @@ async function create(id, user, data){
 } catch (error) {
   console.log(error);
   }
+}
+create(5, account, "Create new Data via JSON RPC")
